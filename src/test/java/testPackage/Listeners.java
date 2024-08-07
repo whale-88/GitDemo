@@ -17,6 +17,8 @@ public class Listeners implements ITestListener {
     public void onTestFailure(ITestResult result) {
 
     System.out.println("test failure " + result.getName());
+    System.out.println("test failure " + result.getName());
+    System.out.println("test failure " + result.getName());
 
     }
 
